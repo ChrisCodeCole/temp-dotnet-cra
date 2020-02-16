@@ -4,9 +4,13 @@ This application was initially built using the React template from ASP.NET Core 
 
 ## Getting Started
 
-Clone this application and run:
+Clone this application, then **`cd`** into the cloned directory and run:
 
 **`npm install`**
+
+Then run the application with:
+
+**`npm start`**
 
 ### Global Dev Tools
 
