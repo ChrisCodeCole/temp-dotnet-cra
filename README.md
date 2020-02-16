@@ -6,7 +6,7 @@ This application was initially built using the React template from ASP.NET Core 
 
 Clone this application and run:
 
-`npm install`
+`***npm install***`
 
 ### Global Dev Tools
 
@@ -14,13 +14,13 @@ Configuration guide followed - [How to setup ESLint and Prettier for your React 
 
 This project uses ESLint & Prettier for automatic and consistent linting/formatting with every git commit. Run these commands below before development.
 
-Prettier:
+##### Prettier:
 
-`npm install prettier -g`
+`***npm install prettier -g***`
 
-ESLint:
+##### ESLint:
 
-`npm install eslint -g`
+`***npm install eslint -g***`
 
 ## Useful Links
 
