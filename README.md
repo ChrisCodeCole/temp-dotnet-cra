@@ -6,7 +6,7 @@ This application was initially built using the React template from ASP.NET Core 
 
 Clone this application and run:
 
-`***npm install***`
+`**npm install**`
 
 ### Global Dev Tools
 
@@ -16,11 +16,11 @@ This project uses ESLint & Prettier for automatic and consistent linting/formatt
 
 ##### Prettier:
 
-`***npm install prettier -g***`
+`**npm install prettier -g**`
 
 ##### ESLint:
 
-`***npm install eslint -g***`
+`**npm install eslint -g**`
 
 ## Useful Links
 
