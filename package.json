@@ -1,52 +1,90 @@
 {
-  "name": "template_dotnet_cli",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "babel-eslint": "10.0.3",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "merge": "^1.2.1",
-    "oidc-client": "^1.10.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-bootstrap": "^0.25.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
-    "reactstrap": "^8.4.1",
-    "rimraf": "^3.0.2"
-  },
-  "devDependencies": {
-    "ajv": "^6.11.0",
-    "cross-env": "^7.0.0",
-    "eslint": "^6.8.0",
-    "eslint-config-react-app": "^5.2.0",
-    "eslint-plugin-flowtype": "^4.6.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.3",
-    "typescript": "^3.7.5"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "scripts": {
-    "start": "rimraf ./build && react-scripts start",
-    "build": "react-scripts build",
-    "test": "cross-env CI=true react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "lint": "eslint ./src/"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "template_dotnet_cli",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"babel-eslint": "10.0.3",
+		"bootstrap": "^4.4.1",
+		"jquery": "^3.4.1",
+		"merge": "^1.2.1",
+		"oidc-client": "^1.10.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-router-bootstrap": "^0.25.0",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "3.4.0",
+		"reactstrap": "^8.4.1",
+		"rimraf": "^3.0.2"
+	},
+	"devDependencies": {
+		"ajv": "^6.11.0",
+		"cross-env": "^7.0.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-config-react-app": "^5.2.0",
+		"eslint-plugin-flowtype": "^4.6.0",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.18.3",
+		"husky": "^4.2.3",
+		"lint-staged": "^10.0.7",
+		"prettier": "^1.19.1",
+		"typescript": "^3.7.5"
+	},
+	"eslintConfig": {
+		"plugins": [
+			"react",
+			"prettier"
+		],
+		"extends": [
+			"react-app",
+			"plugin:prettier/recommended"
+		]
+	},
+	"prettier": {
+		"printWidth": 80,
+		"bracketSpacing": false,
+		"trailingComma": "es5",
+		"semi": false,
+		"jsxSingleQuote": true,
+		"singleQuote": true,
+		"useTabs": true,
+		"tabWidth": 2
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.+(js|jsx)": [
+			"eslint --fix",
+			"git add"
+		],
+		"*.+(json|css|md)": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"scripts": {
+		"start": "rimraf ./build && react-scripts start",
+		"build": "react-scripts build",
+		"test": "cross-env CI=true react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"lint": "eslint ./src/",
+		"format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
