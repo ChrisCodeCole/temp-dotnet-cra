@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import classes from './Login.module.css'
+import classes from './Home.module.css'
 
-export default class Login extends Component {
+export default class Home extends Component {
     render() {
         return (
             <div>
-                
+                Home
             </div>
         )
     }
