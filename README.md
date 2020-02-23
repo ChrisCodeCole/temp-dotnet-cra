@@ -28,4 +28,17 @@ This project uses ESLint & Prettier for automatic and consistent linting/formatt
 
 ## Useful Links
 
-- [Create-React-App Documentation](https://create-react-app.dev/docs/getting-started/)
+-   [Create-React-App Documentation](https://create-react-app.dev/docs/getting-started/)
+    **Use: Build Tooling**
+
+-   [Axios Documentation](https://github.com/axios/axios)
+    **Use: API Calls**
+
+-   [Material-UI](https://material-ui.com//)
+    **Use: UI Components**
+
+-   [React-Spring](https://www.react-spring.io/)
+    **Use: Animations**
+
+-   [React-Redux](https://react-redux.js.org/using-react-redux/connect-mapstate)
+    **Use: State Management**

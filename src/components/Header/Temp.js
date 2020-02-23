@@ -3,7 +3,19 @@ import Header from './Header';
 import NavBar from '../Navbar/NavBar';
 import SubHeader from '../SubHeader/SubHeader';
 
-export default class TempContainer extends Component {
+export default class Temp extends Component {
+	componentDidMount() {
+		console.log('hello');
+		console.log(this.props.isAlertTriggered);
+		this.props.triggerAlert(false);
+	}
+
+	componentDidUpdate(prevProps) {
+		if (prevProps.isAlertTriggered !== this.props.isAlertTriggered) {
+			console.log('isAlertTriggered', this.props.isAlertTriggered);
+		}
+	}
+
 	render() {
 		return (
 			<div

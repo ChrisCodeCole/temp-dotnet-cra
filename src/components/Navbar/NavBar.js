@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './NavBar.module.css';
-import CustomLink from '../UI/link/CustomLink';
+// import CustomLink from '../UI/link/CustomLink';
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 
