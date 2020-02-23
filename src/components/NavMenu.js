@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react';
 import {
 	Collapse,
 	Container,
@@ -7,26 +7,26 @@ import {
 	NavbarToggler,
 	NavItem,
 	NavLink,
-} from 'reactstrap'
-import {Link} from 'react-router-dom'
-import './NavMenu.css'
+} from 'reactstrap';
+import { Link } from 'react-router-dom';
+import './NavMenu.css';
 
 export class NavMenu extends Component {
-	static displayName = NavMenu.name
+	static displayName = NavMenu.name;
 
 	constructor(props) {
-		super(props)
+		super(props);
 
-		this.toggleNavbar = this.toggleNavbar.bind(this)
+		this.toggleNavbar = this.toggleNavbar.bind(this);
 		this.state = {
 			collapsed: true,
-		}
+		};
 	}
 
 	toggleNavbar() {
 		this.setState({
 			collapsed: !this.state.collapsed,
-		})
+		});
 	}
 
 	render() {
@@ -40,7 +40,10 @@ export class NavMenu extends Component {
 						<NavbarBrand tag={Link} to='/'>
 							template_dotnet_cli
 						</NavbarBrand>
-						<NavbarToggler onClick={this.toggleNavbar} className='mr-2' />
+						<NavbarToggler
+							onClick={this.toggleNavbar}
+							className='mr-2'
+						/>
 						<Collapse
 							className='d-sm-inline-flex flex-sm-row-reverse'
 							isOpen={!this.state.collapsed}
@@ -48,18 +51,39 @@ export class NavMenu extends Component {
 						>
 							<ul className='navbar-nav flex-grow'>
 								<NavItem>
-									<NavLink tag={Link} className='text-dark' to='/'>
+									<NavLink
+										tag={Link}
+										className='text-dark'
+										to='/'
+									>
 										Home
 									</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink tag={Link} className='text-dark' to='/counter'>
+									<NavLink
+										tag={Link}
+										className='text-dark'
+										to='/counter'
+									>
 										Counter
 									</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink tag={Link} className='text-dark' to='/fetch-data'>
+									<NavLink
+										tag={Link}
+										className='text-dark'
+										to='/fetch-data'
+									>
 										Fetch data
+									</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink
+										tag={Link}
+										className='text-dark'
+										to='/helen'
+									>
+										Helen
 									</NavLink>
 								</NavItem>
 							</ul>
@@ -67,6 +91,6 @@ export class NavMenu extends Component {
 					</Container>
 				</Navbar>
 			</header>
-		)
+		);
 	}
 }
