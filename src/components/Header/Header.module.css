@@ -1,0 +1,28 @@
+.headerWrapper {
+	/* TODO: Update height & with when adding to layout */
+	height: 160px;
+	width: 50%;
+
+	opacity: 0.5;
+	border: 3px solid var(--secondary-textColor);
+}
+
+.headerText {
+	font-family: Eczar;
+	font-weight: 600;
+	font-size: 4rem;
+	line-height: calc(4rem * 1);
+	margin: 0;
+	/* TODO: use global colors with variables */
+	color: var(--main-bg);
+	/* text-shadow creates an outline effect, more calls means bolder outline */
+	text-shadow: 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor),
+		0 0 1px var(--secondary-textColor), 0 0 1px var(--secondary-textColor);
+}

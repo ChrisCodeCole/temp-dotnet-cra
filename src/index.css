@@ -1,0 +1,116 @@
+/* 
+  ===============
+  CSS RESET 
+  ===============
+*/
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* 
+  ===============
+  COLORS 
+  ===============
+*/
+
+:root {
+	--main-textColor: white;
+	--secondary-textColor: red;
+	--main-bg: black;
+	/* --secondary-bg:  */
+}
+
+/* 
+  ===============
+  FONTS 
+  ===============
+*/
+
+/* Ezcar Fonts 
+
+(source) https://www.fontsquirrel.com/fonts/eczar
+*/
+@font-face {
+	font-family: 'Eczar';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Eczar'),
+		url(./assets/fonts/eczar/Eczar-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Eczar';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Eczar'),
+		url(./assets/fonts/eczar/Eczar-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Eczar';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Eczar'),
+		url(./assets/fonts/eczar/Eczar-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Eczar';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Eczar'),
+		url(./assets/fonts/eczar/Eczar-SemiBold.ttf) format('truetype');
+}
+
+/* Poppins Fonts 
+
+(source) https://www.fontsquirrel.com/fonts/poppins
+*/
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Poppins'),
+		url(./assets/fonts/poppins/Poppins-Regular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Poppins'),
+		url(./assets/fonts/poppins/Poppins-Bold.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Poppins'),
+		url(./assets/fonts/poppins/Poppins-SemiBold.otf) format('opentype');
+}
+
+/* Roboto Fonts 
+
+(source) https://www.fontsquirrel.com/fonts/roboto
+*/
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Roboto'),
+		url(./assets/fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Roboto'),
+		url(./assets/fonts/roboto/Roboto-Bold.ttf) format('truetype');
+}

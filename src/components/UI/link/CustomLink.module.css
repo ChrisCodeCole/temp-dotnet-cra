@@ -1,0 +1,7 @@
+.link {
+	color: var(--main-textColor);
+	font-family: 'Poppins';
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
