@@ -1,0 +1,55 @@
+.navBarWrapper {
+	/* TODO: Update the height */
+	height: 100px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 3px solid white;
+}
+
+.navBarText {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	line-height: 19px;
+	margin: 0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+
+.navBarLink {
+	color: var(--main-textColor);
+	font-family: 'Poppins';
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-bottom: 1px solid var(--main-textColor);
+	position: relative;
+}
+
+.navBarLink:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #0056b3;
+}
+
+/* .navBarLink::after {
+  content: "";
+  background-color: var(--main-textColor);
+  position: relative;
+  width: 60px;
+  height: 1px;
+  left: 5px;
+  display: block;
+} */
+
+.navBarLogo {
+	height: 80%;
+	width: auto;
+	/* height: 100%;
+  width: 40%;
+  object-fit: contain; */
+}
