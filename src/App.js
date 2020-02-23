@@ -1,25 +1,22 @@
 import React from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
-import TempContainer from './components/Header/Container/TempContainer';
+import { Route, Switch } from 'react-router';
+
+import Home from './containers/Home/Home';
+import Landing from './containers/Landing/Landing';
+import Login from './containers/Login/Login';
 
 import Helen from './components/Helen';
-import './custom.css';
 
 const App = () => {
 	// const displayName = App.name
 
 	return (
-		<Layout>
-			<Route exact path='/' component={Home} />
-			<Route path='/counter' component={Counter} />
-			<Route path='/fetch-data' component={FetchData} />
-			<Route path='/chris' component={TempContainer} />
+		<Switch>
+			<Route exact path='/' component={Landing} />
+			<Route path='/login' component={Login} />
+			<Route path='/home' component={Home} />
 			<Route path='/helen' component={Helen} />
-		</Layout>
+		</Switch>
 	);
 };
 
