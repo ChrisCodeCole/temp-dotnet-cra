@@ -1,4 +1,12 @@
+.imageContainer {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	background-color: aliceblue;
+}
 .image {
+	padding: 3px;
 	height: 100%;
 	width: auto;
 }
