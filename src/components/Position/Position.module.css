@@ -1,18 +1,14 @@
-.Engineers {
+.Position {
 }
 
-.Engineers h6 {
-	position: absolute;
-	height: 19px;
-	width: 30%;
-	left: 1%;
-	right: 75.28%;
-	top: calc(40% - 19px / 2);
+h3 {
+	border: 1px solid red;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 19px;
+	text-align: right;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #ffffff;

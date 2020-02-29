@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from './Header.module.css';
 
-export default class Header extends Component {
-	render() {
-		return (
-			<div className={classes.headerWrapper}>
-				<h1 className={classes.headerText}>Welcome to Gainz!</h1>
-			</div>
-		);
-	}
-}
+const Header = props => {
+	return (
+		<div className={classes.headerWrapper}>
+			<h1 className={classes.headerText}>{props.children}</h1>
+		</div>
+	);
+};
+
+export default Header;

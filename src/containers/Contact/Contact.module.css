@@ -1,0 +1,15 @@
+.Contact {
+	background-color: #000;
+}
+
+.Header {
+	transform: rotate(-90deg);
+	margin-left: 8.06%;
+	margin-right: 52.36%;
+	text-align: right;
+}
+
+.SocialIcons {
+	margin: 10% 55.21% 22.61% 37.99%;
+	padding-bottom: 10%;
+}
