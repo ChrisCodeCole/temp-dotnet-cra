@@ -1,0 +1,34 @@
+.loginWrapper {
+	background-color: var(--main-bg);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	overflow: hidden;
+}
+
+.dumbellImage {
+	flex: 1;
+	object-fit: cover;
+	height: 100%;
+}
+
+/* logo */
+/* header */
+/* subheader */
+/* social-icons */
+/* footer */
+
+.rightGrid {
+	flex: 1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-areas:
+		'. . . . . logo'
+		'header header . . . .'
+		'header header . . . .'
+		'subheader subheader subheader subheader subheader subheader'
+		'. . . . . social-icons'
+		'. . . . . social-icons'
+		'footer footer footer footer footer footer';
+}

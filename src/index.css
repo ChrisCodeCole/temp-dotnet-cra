@@ -94,6 +94,27 @@
 		url(./assets/fonts/poppins/Poppins-SemiBold.otf) format('opentype');
 }
 
+/* Roboto-Mono Fonts 
+
+(source) https://www.1001freefonts.com/roboto-mono.font
+*/
+
+@font-face {
+	font-family: 'Roboto Mono';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Roboto'),
+		url(./assets/fonts/roboto-mono/RobotoMono-Regular.ttf)
+			format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Roboto'),
+		url(./assets/fonts/roboto-mono/RobotoMono-Bold.ttf) format('truetype');
+}
 /* Roboto Fonts 
 
 (source) https://www.fontsquirrel.com/fonts/roboto

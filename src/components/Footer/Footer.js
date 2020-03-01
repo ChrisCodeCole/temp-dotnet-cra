@@ -4,21 +4,21 @@ import Button from '@material-ui/core/Button';
 import classes from './Footer.module.css';
 import RemoveIcon from '@material-ui/icons/Remove';
 
-const Footer = () => (
-	<div className={classes.Footer}>
-		<Link to='/'>
+const Footer = ({ style }) => (
+	<div className={classes.Footer} style={style}>
+		<Link className={classes.footerLink} to='/'>
 			<Button>
 				<RemoveIcon />
 				Why
 			</Button>
 		</Link>
-		<Link to='/'>
+		<Link className={classes.footerLink} to='/'>
 			<Button>
 				<RemoveIcon />
 				About Us
 			</Button>
 		</Link>
-		<Link to='/'>
+		<Link className={classes.footerLink} to='/'>
 			<Button>
 				<RemoveIcon />
 				Contact Us

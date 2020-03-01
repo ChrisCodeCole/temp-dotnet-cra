@@ -1,17 +1,21 @@
 .Footer {
-	position: absolute;
+	/* position: absolute;
 	left: 67.26%;
 	right: 4.24%;
 	top: 90.94%;
-	bottom: 6.82%;
+	bottom: 6.82%; */
 }
 
 .Footer button {
 	font-family: Poppins;
-	/* color: #fff; */
+	color: #fff;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 19px;
 	letter-spacing: 3px;
+}
+
+.Footer a {
+	text-decoration: none;
 }
