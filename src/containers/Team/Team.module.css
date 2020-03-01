@@ -7,5 +7,39 @@
 	margin-left: 9.03%;
 }
 
+.Member {
+	color: #fff;
+	margin-left: 10%;
+}
+
+.Name {
+	height: 38px;
+	margin-left: 60%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 38px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+
+.Position {
+	margin-top: 50%;
+	color: #fff;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 19px;
+	text-align: right;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	transform: rotate(-90deg);
+}
+
 .SocialIcons {
+	margin-left: 90%;
+	margin-right: 54.86%;
+	margin-top: -10%;
 }

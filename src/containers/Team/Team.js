@@ -3,29 +3,35 @@ import classes from './Team.module.css';
 import Header from '../../components/Header/Header';
 // import Description from './';
 // import Image from './';
-import Name from '../../components/Name/Name';
-import Position from '../../components/Position/Position';
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
-
-const teamMember = [
-	'Tim Yu',
-	'Helen Harris',
-	'Christian Coleman',
-	'Stanley Chen',
-];
-const personPosition = 'Founder';
+import Grid from '@material-ui/core/Grid';
 
 const Team = () => {
-	const [names, setNames] = useState([]);
-	const [position, setPosition] = useState('');
+	const [members, setMembers] = useState([
+		{
+			id: 1,
+			name: 'Tim Yu',
+			position: 'Founder',
+		},
+		{
+			id: 2,
+			name: 'Helen Harris',
+			position: 'Founder',
+		},
+		{
+			id: 3,
+			name: 'Stanley Chen',
+			position: 'Founder',
+		},
+		{
+			id: 4,
+			name: 'Christian Coleman',
+			position: 'Founder',
+		},
+	]);
 
 	let TeamHeader = 'Our People';
 	// let Description = 'Meet the team!';
-
-	useEffect(() => {
-		setNames(teamMember);
-		setPosition(personPosition);
-	}, []);
 
 	return (
 		<div className={classes.Team}>
@@ -34,9 +40,23 @@ const Team = () => {
 			</div>
 			<div>{/* <Description children={Description} /> */}</div>
 
-			{/* TODO */}
-			{/* Map for each person: */}
-			{/* Position, image, social icon, name, and description */}
+			<Grid container spacing={3}>
+				{members.map(member => (
+					<Grid item xs={6}>
+						<div key={member.id} className={classes.Member}>
+							<h1 className={classes.Name}>{member.name}</h1>
+							{/* <Image /> */}
+							<h6 className={classes.Position}>
+								{member.position}
+							</h6>
+							<div className={classes.SocialIcons}>
+								<SocialIcons />
+							</div>
+							{/* <Description /> */}
+						</div>
+					</Grid>
+				))}
+			</Grid>
 		</div>
 	);
 };
