@@ -1,0 +1,24 @@
+.ProfileInfo {
+	margin: 0% 39.65% 22.32% 52.08%;
+	/* margin-top: 45.92%; */
+}
+
+h1 {
+	height: 124.98px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 38px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+
+p {
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #ffffff;
+}
