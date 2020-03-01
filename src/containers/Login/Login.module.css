@@ -21,8 +21,8 @@
 .rightGrid {
 	flex: 1;
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	grid-template-rows: repeat(6, minmax(0, 1fr));
 	grid-template-areas:
 		'. . . . . logo'
 		'header header . . . .'
@@ -31,4 +31,6 @@
 		'. . . . . social-icons'
 		'. . . . . social-icons'
 		'footer footer footer footer footer footer';
+	min-height: 0;
+	min-width: 0;
 }

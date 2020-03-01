@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header';
 import SubHeader from '../../components/SubHeader/SubHeader';
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import Footer from '../../components/Footer/Footer';
+import Logo from '../../components/Logo/Logo';
 import dumbellImage from '../../assets/login 1.png';
 
 export default class Login extends Component {
@@ -16,6 +17,15 @@ export default class Login extends Component {
 					alt='dumbell image'
 				/>
 				<div className={classes.rightGrid}>
+					<Logo
+						style={{
+							gridArea: 'logo',
+							width: '50%',
+							justifySelf: 'end',
+							marginRight: '10%',
+							marginTop: '10%',
+						}}
+					/>
 					<Header
 						headerText={'Login'}
 						style={{ gridArea: 'header', alignSelf: 'center' }}
@@ -32,9 +42,18 @@ export default class Login extends Component {
 							gridArea: 'social-icons',
 							display: 'flex',
 							flexDirection: 'column',
+							justifySelf: 'end',
+							marginRight: '20%',
 						}}
 					/>
-					<Footer style={{ gridArea: 'footer' }} />
+					<Footer
+						style={{
+							gridArea: 'footer',
+							justifySelf: 'end',
+							marginRight: '10%',
+							marginBottom: '5%',
+						}}
+					/>
 				</div>
 			</div>
 		);

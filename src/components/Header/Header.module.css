@@ -6,7 +6,7 @@
 .headerText {
 	font-family: Eczar;
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 4rem;
 	line-height: calc(4rem * 1);
 	margin: 0;
 	/* TODO: use global colors with variables */
