@@ -14,7 +14,7 @@ const Contact = () => {
 	return (
 		<div className={classes.Contact}>
 			<div className={classes.Header}>
-				<Header children={headerText} />
+				<Header headerText={headerText} />
 			</div>
 			<div>{/* <Paragraph /> */}</div>
 			<div>{/* <Description children={writeUsText}/> */}</div>
