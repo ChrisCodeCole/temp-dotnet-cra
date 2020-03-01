@@ -103,7 +103,7 @@
 	font-family: 'Roboto Mono';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Roboto'),
+	src: local('Roboto Mono'),
 		url(./assets/fonts/roboto-mono/RobotoMono-Regular.ttf)
 			format('truetype');
 }
@@ -112,7 +112,7 @@
 	font-family: 'Roboto Mono';
 	font-style: normal;
 	font-weight: bold;
-	src: local('Roboto'),
+	src: local('Roboto Mono'),
 		url(./assets/fonts/roboto-mono/RobotoMono-Bold.ttf) format('truetype');
 }
 /* Roboto Fonts 
