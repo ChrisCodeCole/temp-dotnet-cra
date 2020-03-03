@@ -1,16 +1,12 @@
 .headerWrapper {
-	/* TODO: Update height & with when adding to layout */
-	height: 160px;
-	width: 50%;
-
+	margin-left: 13%;
 	opacity: 0.5;
-	border: 3px solid var(--secondary-textColor);
 }
 
 .headerText {
 	font-family: Eczar;
 	font-weight: 600;
-	font-size: 4rem;
+	font-size: 5rem;
 	line-height: calc(4rem * 1);
 	margin: 0;
 	/* TODO: use global colors with variables */
