@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './Description.module.css';
 
-const Description = () => {
+const Description = ({ style }) => {
 	return (
-		<div className={classes.descriptionContainer}>
+		<div className={classes.descriptionContainer} style={style}>
 			<p className={classes.descriptionText}>
 				Aliqua commodo sint cillum enim ipsum sit non esse velit amet.
 				Cupidatat officia minim minim nisi et cillum aliqua aute. Non
