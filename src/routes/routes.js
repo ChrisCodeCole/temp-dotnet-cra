@@ -22,7 +22,7 @@ const Profile = React.lazy(() => {
 
 const routes = () => (
 	<Switch>
-		{/* <Route path='/login' component={Login} /> */}
+		<Route path='/login' component={Login} />
 		{/* <Route path='/home' component={Home} /> */}
 		{/* <Route exact path='/team' component={Team} /> */}
 		{/* <Route exact path='/contact' component={Contact} /> */}

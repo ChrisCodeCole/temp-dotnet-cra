@@ -16,7 +16,7 @@ class About2 extends Component {
 					<Image />
 					<SubHeader
 						subheaderText='Name'
-						descriptionText='Quis ex dolor duis esse laboris.'
+						descriptionText='In veniam ad irure laboris tempor voluptate tempor enim tempor. Aliquip velit ipsum sunt eu ut tempor ex deserunt sint. Mollit do ipsum dolor est minim consectetur qui proident. Ea aliqua nulla quis incididunt irure. Culpa mollit aliqua ullamco reprehenderit enim quis ad mollit do est mollit dolor.'
 					/>
 				</div>
 				<div className={classes.about2Content}>
@@ -24,7 +24,7 @@ class About2 extends Component {
 					<Image />
 					<SubHeader
 						subheaderText='Name'
-						descriptionText='Quis ex dolor duis esse laboris.'
+						descriptionText='Eiusmod ut magna ipsum labore consequat esse non occaecat mollit. Veniam incididunt et pariatur non pariatur eu consequat aliquip sint. Laboris esse ullamco do esse. Ullamco cupidatat est amet officia quis quis ex.'
 					/>
 				</div>
 				<div className={classes.about2Content}>
@@ -32,7 +32,7 @@ class About2 extends Component {
 					<Image />
 					<SubHeader
 						subheaderText='Name'
-						descriptionText='Quis ex dolor duis esse laboris.'
+						descriptionText='Do ex et excepteur aute ipsum ad sit magna amet. Cupidatat ad eu et et nulla ea minim enim. Non ex eiusmod minim ipsum ea.'
 					/>
 				</div>
 			</div>
