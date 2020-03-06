@@ -31,3 +31,32 @@
 		'text text text text'
 		'. . . .';
 }
+
+.about2ContentR {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: auto;
+	grid-template-areas: 'textInfo headerImage';
+}
+
+.headerImageR {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: auto;
+	grid-template-areas:
+		'. . . .'
+		'. . . .'
+		'image image header .'
+		'. . . .';
+}
+
+.textInfoR {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: auto;
+	grid-template-areas:
+		'. . . .'
+		'. . . name'
+		'text text text text'
+		'. . . .';
+}

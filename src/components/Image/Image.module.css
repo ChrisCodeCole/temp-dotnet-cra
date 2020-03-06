@@ -3,7 +3,7 @@
 	justify-content: center;
 	height: 300px;
 	width: 300px;
-	background-color: aliceblue;
+	background-color: inherit;
 }
 .image {
 	padding: 3px;
