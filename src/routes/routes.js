@@ -18,21 +18,19 @@ const Profile = React.lazy(() => {
 	return import('../containers/Profile/Profile');
 });
 
-// import Helen from './components/Helen';
-
 const routes = () => (
 	<Switch>
 		<Route path='/login' component={Login} />
-		{/* <Route path='/home' component={Home} /> */}
-		{/* <Route exact path='/team' component={Team} /> */}
-		{/* <Route exact path='/contact' component={Contact} /> */}
-		{/* <Route exact path='/profile' component={Profile} /> */}
-		{/* <Route path='/helen' component={Helen} /> */}
-		{/* <Route exact path='/' component={Landing} /> */}
-		<Route exact path='/' component={About2} />
+		<Route path='/home' component={Home} />
+		<Route exact path='/team' component={Team} />
+		<Route exact path='/contact' component={Contact} />
+		{/* TODO - BY ID */}
+		<Route exact path='/profile' component={Profile} />
+		<Route exact path='/about2' component={About2} />
+		<Route exact path='/' component={Landing} />
 
 		{/* Since we do not have a 404 page right now - this solution works */}
-		{/* <Redirect to='/' /> */}
+		<Redirect to='/' />
 	</Switch>
 );
 

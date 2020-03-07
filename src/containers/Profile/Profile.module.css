@@ -1,8 +1,40 @@
-.Profile {
-	background-color: #000;
+.logoContainer {
+	grid-area: logo;
 }
 
 .Logo {
 	height: 3em;
-	margin: 3% 47.92% 0% 47.92%;
+}
+
+.madeByEngineersForEngineersContainer {
+	grid-area: madebyengineersforengineers;
+	align-self: end;
+	transform: rotate(-90deg);
+}
+
+.headerContainer {
+	grid-area: header;
+}
+
+.profileImageContainer {
+	grid-area: image;
+	justify-self: center;
+}
+
+.profileInfoContainer {
+	grid-area: info;
+}
+
+.Container {
+	padding: 2em;
+	display: grid;
+	grid-template-columns: 50px 600px 600px 20px;
+	grid-template-rows: 40px 40px auto;
+	grid-row-gap: 50px;
+	grid-column-gap: 30px;
+	grid-template-areas:
+		'. . logo .'
+		'. header . .'
+		'madebyengineersforengineers image info .'
+		'. . . .';
 }

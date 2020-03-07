@@ -1,15 +1,42 @@
-.Contact {
-	background-color: #000;
-}
-
-.Header {
+.HeaderContainer {
+	grid-area: header;
 	transform: rotate(-90deg);
-	margin-left: 8.06%;
-	margin-right: 52.36%;
 	text-align: right;
+	align-self: end;
 }
 
-.SocialIcons {
-	margin: 10% 55.21% 22.61% 37.99%;
-	padding-bottom: 10%;
+.ContactUsInstructionsContainer {
+	grid-area: contactusinstructions;
+}
+
+.WriteUsTextContainer {
+	grid-area: writeus;
+}
+
+.EmailContainer {
+	grid-area: email;
+}
+
+.FollowUsTextcontainer {
+	grid-area: followus;
+}
+
+.SocialIconsContainer {
+	grid-area: socialicons;
+}
+
+.Container {
+	padding: 2em;
+	display: grid;
+	grid-template-columns: auto auto 300px;
+	grid-template-rows: 100px auto 10px 50px 10px 10px;
+	grid-row-gap: 30px;
+	grid-column-gap: 10px;
+	grid-template-areas:
+		'. . .'
+		'. header contactusinstructions'
+		'. header writeus'
+		'. header email'
+		'. header followus'
+		'. header socialicons';
 }
