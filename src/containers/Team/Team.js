@@ -42,7 +42,7 @@ const Team = () => {
 
 			<Grid container spacing={3}>
 				{members.map(member => (
-					<Grid item xs={6}>
+					<Grid item xs={6} key={member.id}>
 						<div key={member.id} className={classes.Member}>
 							<h1 className={classes.Name}>{member.name}</h1>
 							{/* <Image /> */}
