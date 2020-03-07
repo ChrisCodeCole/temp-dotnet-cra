@@ -1,14 +1,12 @@
 .subHeaderWrapper {
-	border: 1px solid white;
-	height: 100px;
-	width: 100vw;
+	margin-left: 5%;
 }
 
 .subHeader {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 1.625rem;
+	font-size: 2rem;
 	line-height: 38px;
 	margin: 0;
 
@@ -16,13 +14,13 @@
 }
 
 .subHeaderDescription {
-	font-family: Roboto;
+	font-family: Roboto Mono;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.125rem;
+	font-size: 1.2rem;
 	line-height: 30px;
 	margin: 0;
-	text-indent: 2rem;
+	text-indent: 1rem;
 
 	color: var(--main-textColor);
 }

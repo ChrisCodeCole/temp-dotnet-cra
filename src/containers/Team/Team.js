@@ -36,7 +36,7 @@ const Team = () => {
 	return (
 		<div className={classes.Team}>
 			<div className={classes.Header}>
-				<Header children={TeamHeader} />
+				<Header headerText={TeamHeader} />
 			</div>
 			<div>{/* <Description children={Description} /> */}</div>
 
