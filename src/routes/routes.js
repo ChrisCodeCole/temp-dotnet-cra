@@ -30,8 +30,8 @@ const routes = () => (
 		{/* <Route exact path='/profile' component={Profile} /> */}
 		{/* <Route path='/helen' component={Helen} /> */}
 		{/* <Route exact path='/' component={Landing} /> */}
-		{/* <Route exact path='/about' component={About1} /> */}
-		<Route exact path='/' component={About2} />
+		<Route exact path='/' component={About1} />
+		{/* <Route exact path='/about' component={About2} /> */}
 
 		{/* Since we do not have a 404 page right now - this solution works */}
 		{/* <Redirect to='/' /> */}

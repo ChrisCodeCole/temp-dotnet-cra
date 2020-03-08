@@ -18,8 +18,20 @@ const About1 = () => {
 					<Image style={{ gridArea: 'image' }} />
 				</div>
 				<div className='textInfo' style={{ gridArea: 'textInfo' }}>
-					<Description style={{ gridArea: 'name' }} />
-					<Description style={{ gridArea: 'text' }} />
+					<Description
+						text='Name'
+						style={{
+							gridArea: 'name',
+							color: 'white',
+						}}
+					/>
+					<Description
+						text='Non dolore ad fugiat esse laboris. Proident nostrud exercitation aute enim. Non culpa qui consequat sit incididunt do mollit exercitation.'
+						style={{
+							gridArea: 'text',
+							color: 'white',
+						}}
+					/>
 				</div>
 			</div>
 			{/* <div className={classses.about1Content}>

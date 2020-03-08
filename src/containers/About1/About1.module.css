@@ -17,7 +17,7 @@
 	grid-template-rows: auto;
 	grid-template-areas:
 		'. header header .'
-		'. image image .';
+		'. . image image';
 }
 
 .textInfo {
@@ -27,5 +27,6 @@
 	grid-template-areas:
 		'. . . .'
 		'name . . .'
-		'text text text text';
+		'text text text text'
+		'. . . .';
 }
