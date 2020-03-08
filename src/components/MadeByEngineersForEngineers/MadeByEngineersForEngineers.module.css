@@ -1,13 +1,12 @@
 .Engineers {
+	display: flex;
+	height: 20px;
+	width: 600px;
+	align-items: center;
+	justify-content: center;
 }
 
 .Engineers h6 {
-	position: absolute;
-	height: 19px;
-	width: 30%;
-	left: 1%;
-	right: 75.28%;
-	top: calc(40% - 19px / 2);
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
@@ -15,6 +14,5 @@
 	line-height: 19px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	color: #ffffff;
-	transform: rotate(-90deg);
+	color: #fff;
 }

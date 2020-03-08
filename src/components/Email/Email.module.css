@@ -1,12 +1,7 @@
 .Email {
-	height: 82px;
-	margin-left: 37.92%;
-	margin-right: 27.08%;
-	/* margin-top: calc(50% - 82px/2 + 48.5px); */
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
-	line-height: 82px;
 	color: #ffffff;
 }

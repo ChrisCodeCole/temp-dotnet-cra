@@ -1,11 +1,10 @@
 .navBarWrapper {
 	/* TODO: Update the height */
-	height: 100px;
-	width: 100vw;
+	height: 10%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 3px solid white;
+	margin-bottom: 2%;
 }
 
 .navBarText {
@@ -29,6 +28,7 @@
 	letter-spacing: 3px;
 	border-bottom: 1px solid var(--main-textColor);
 	position: relative;
+	text-decoration: none;
 }
 
 .navBarLink:hover {

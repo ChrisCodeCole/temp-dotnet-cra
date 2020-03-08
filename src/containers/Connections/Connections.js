@@ -4,14 +4,15 @@ import Navbar from '../../components/Navbar/NavBar';
 import Header from '../../components/Header/Header';
 import Image from '../../components/Image/Image';
 import Description from '../../components/Description/Description';
-import classes from './About2.module.css';
+import classes from './Connections.module.css';
+import IMG from './../../assets/images/a1.png';
 
-class About2 extends Component {
+class Connections extends Component {
 	render() {
 		return (
-			<div className={classes.about2Container}>
+			<div className={classes.connectionsContainer}>
 				<Navbar />
-				<div className={classes.about2Content}>
+				<div className={classes.connectionsContent}>
 					<div
 						className={classes.headerImage}
 						style={{
@@ -32,7 +33,11 @@ class About2 extends Component {
 								// border: '1px solid #1E252C'
 							}}
 						/>
-						<Image style={{ gridArea: 'image' }} />
+						<Image
+							style={{ gridArea: 'image' }}
+							image={IMG}
+							imageDescription='profile picture'
+						/>
 					</div>
 					<div
 						className={classes.textInfo}
@@ -62,7 +67,7 @@ class About2 extends Component {
 					</div>
 				</div>
 
-				<div className={classes.about2ContentR}>
+				<div className={classes.connectionsContentR}>
 					<div
 						className={classes.headerImageR}
 						style={{
@@ -83,7 +88,11 @@ class About2 extends Component {
 								// border: '1px solid #1E252C'
 							}}
 						/>
-						<Image style={{ gridArea: 'image' }} />
+						<Image
+							style={{ gridArea: 'image' }}
+							image={IMG}
+							imageDescription='profile picture'
+						/>
 					</div>
 					<div
 						className={classes.textInfoR}
@@ -113,7 +122,7 @@ class About2 extends Component {
 					</div>
 				</div>
 
-				<div className={classes.about2Content}>
+				<div className={classes.connectionsContent}>
 					<div
 						className={classes.headerImage}
 						style={{
@@ -134,7 +143,11 @@ class About2 extends Component {
 								// border: '1px solid #1E252C'
 							}}
 						/>
-						<Image style={{ gridArea: 'image' }} />
+						<Image
+							style={{ gridArea: 'image' }}
+							image={IMG}
+							imageDescription='profile picture'
+						/>
 					</div>
 					<div
 						className={classes.textInfo}
@@ -168,4 +181,4 @@ class About2 extends Component {
 	}
 }
 
-export default About2;
+export default Connections;

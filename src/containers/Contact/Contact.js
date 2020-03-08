@@ -1,28 +1,34 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
-// import Description from './';
-// import Paragraph from './';
+import Description from '../../components/Description/Description';
 import Email from '../../components/Email/Email';
 import classes from './Contact.module.css';
 
 const Contact = () => {
-	// let writeUsText = 'Write Us';
-	// let followUsText = 'Follow Us';
+	let contactUsInstructions = 'Have a question? Write to us!';
+	let writeUsText = 'Write Us';
+	let followUsText = 'Follow Us';
 	let headerText = 'Contact Us';
 
 	return (
-		<div className={classes.Contact}>
-			<div className={classes.Header}>
+		<div className={classes.Container}>
+			<div className={classes.HeaderContainer}>
 				<Header headerText={headerText} />
 			</div>
-			<div>{/* <Paragraph /> */}</div>
-			<div>{/* <Description children={writeUsText}/> */}</div>
-			<div>
+			<div className={classes.ContactUsInstructionsContainer}>
+				<Description text={contactUsInstructions} />
+			</div>
+			<div className={classes.WriteUsTextContainer}>
+				<Description text={writeUsText} />
+			</div>
+			<div className={classes.EmailContainer}>
 				<Email />
 			</div>
-			<div>{/* <Description children={followUsText} /> */}</div>
-			<div className={classes.SocialIcons}>
+			<div className={classes.FollowUsTextContainer}>
+				<Description text={followUsText} />
+			</div>
+			<div className={classes.SocialIconsContainer}>
 				<SocialIcons />
 			</div>
 		</div>
