@@ -7,7 +7,7 @@ import Logo from '../Logo/Logo';
 export default class NavBar extends Component {
 	render() {
 		return (
-			<div className={classes.navBarWrapper}>
+			<div className={classes.navBarWrapper} style={this.props.style}>
 				<p className={classes.navBarText}>WELCOME!</p>
 				<Logo className={classes.navBarLogo} />
 				<Link className={classes.navBarLink} to={'/'}>

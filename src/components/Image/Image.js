@@ -1,11 +1,10 @@
 import React from 'react';
 import classes from './Image.module.css';
 
-const Image = ({ image, imageDescription, style }) => {
+const Image = ({ image, imageDescription, style, imageStyles }) => {
 	return (
 		<div className={classes.imageContainer} style={style}>
-			{/* <imp classname={classes.image} src={image} alt='' /> */}
-			<img className={classes.image} src={image} alt={imageDescription} />
+			<img className={classes.image} src={image} alt={imageDescription} style={imageStyles} />
 		</div>
 	);
 };
