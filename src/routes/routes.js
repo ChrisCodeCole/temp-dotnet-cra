@@ -4,6 +4,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from '../containers/Home/Home';
 import Landing from '../containers/Landing/Landing';
 import Login from '../containers/Login/Login';
+import About1 from '../containers/About1/About1';
 
 const Team = React.lazy(() => {
 	return import('../containers/Team/Team');
@@ -27,7 +28,8 @@ const routes = () => (
 		<Route exact path='/contact' component={Contact} />
 		<Route exact path='/profile' component={Profile} />
 		{/* <Route path='/helen' component={Helen} /> */}
-		<Route exact path='/' component={Landing} />
+		{/* <Route exact path='/' component={Landing} /> */}
+		<Route exact path='/' component={About1} />
 
 		{/* Since we do not have a 404 page right now - this solution works */}
 		<Redirect to='/' />

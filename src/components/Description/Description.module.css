@@ -1,11 +1,12 @@
 .descriptionContainer {
-	width: 300px;
+	/* width: 300px;
 	height: 300px;
-	padding: 5px;
+	padding: 5px; */
 }
 
 .descriptionText {
 	font-size: 18%;
 	line-height: 145%;
 	word-spacing: 1px;
+	color: white;
 }

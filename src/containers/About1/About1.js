@@ -7,20 +7,20 @@ import Description from '../../components/Description/Description';
 
 const About1 = () => {
 	return (
-		<div className={classes.About1Container}>
+		<div className={classes.about1Container}>
 			<NavBar />
-			<div className={classes.About1Content}>
-				<Header />
+			<div className={classes.about1Content}>
+				<Header headerText='About' />
 				<Image />
 				<Description />
 				<Description />
 			</div>
-			{/* <div className={classses.About1Content}>
+			{/* <div className={classses.about1Content}>
                 <Description />
                 <Description />
                 <Image />
             </div>
-            <div className={classes.About1Content}>
+            <div className={classes.about1Content}>
                 <div>
                     <Header />
                     <Description />
