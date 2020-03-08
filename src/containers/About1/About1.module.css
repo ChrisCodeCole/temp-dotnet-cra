@@ -3,3 +3,29 @@
 	width: 100vw;
 	height: 100vh;
 }
+
+.about1Content {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: auto;
+	grid-template-areas: 'headerImage textInfo';
+}
+
+.headerImage {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: auto;
+	grid-template-areas:
+		'. header header .'
+		'. image image .';
+}
+
+.textInfo {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: auto;
+	grid-template-areas:
+		'. . . .'
+		'name . . .'
+		'text text text text';
+}

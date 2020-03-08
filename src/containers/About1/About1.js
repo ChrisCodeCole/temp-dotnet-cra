@@ -10,10 +10,17 @@ const About1 = () => {
 		<div className={classes.about1Container}>
 			<NavBar />
 			<div className={classes.about1Content}>
-				<Header headerText='About' />
-				<Image />
-				<Description />
-				<Description />
+				<div
+					className='headerImage'
+					style={{ gridArea: 'headerImage' }}
+				>
+					<Header headerText='About' style={{ gridArea: 'header' }} />
+					<Image style={{ gridArea: 'image' }} />
+				</div>
+				<div className='textInfo' style={{ gridArea: 'textInfo' }}>
+					<Description style={{ gridArea: 'name' }} />
+					<Description style={{ gridArea: 'text' }} />
+				</div>
 			</div>
 			{/* <div className={classses.about1Content}>
                 <Description />
