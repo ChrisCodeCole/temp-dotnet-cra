@@ -6,19 +6,19 @@ import RemoveIcon from '@material-ui/icons/Remove';
 
 const Footer = ({ style }) => (
 	<div className={classes.Footer} style={style}>
-		<Link className={classes.footerLink} to='/'>
+		<Link className={classes.footerLink} to='/team'>
 			<Button>
 				<RemoveIcon />
-				Why
+				Team
 			</Button>
 		</Link>
-		<Link className={classes.footerLink} to='/'>
+		<Link className={classes.footerLink} to='/about2'>
 			<Button>
 				<RemoveIcon />
 				About Us
 			</Button>
 		</Link>
-		<Link className={classes.footerLink} to='/'>
+		<Link className={classes.footerLink} to='/contact'>
 			<Button>
 				<RemoveIcon />
 				Contact Us

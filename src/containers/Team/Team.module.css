@@ -1,45 +1,81 @@
-.Team {
-	background-color: #000;
+.HeaderContainer {
+	grid-area: header;
 }
 
-.Header {
-	padding-top: 5%;
-	margin-left: 9.03%;
+.TeamDescriptionContainer {
+	grid-area: description;
 }
 
-.Member {
-	color: #fff;
-	margin-left: 10%;
+.MembersContainer {
+	grid-area: members;
+	color: var(--main-textColor);
+}
+
+.MemberContainer {
+	grid-area: member;
+}
+
+.MemberNameContainer {
+	grid-area: name;
 }
 
 .Name {
 	height: 38px;
-	margin-left: 60%;
-	font-family: Poppins;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 600;
 	font-size: 26px;
 	line-height: 38px;
 	letter-spacing: 0.5px;
-	color: #ffffff;
+	color: var(--main-textColor);
+}
+
+.MemberPositionContainer {
+	grid-area: position;
+	/* transform: rotate(-90deg); */
 }
 
 .Position {
-	margin-top: 50%;
-	color: #fff;
-	font-family: Poppins;
+	border: 1px solid red;
+	color: var(--main-textColor);
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 19px;
-	text-align: right;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	transform: rotate(-90deg);
+}
+
+.MemberImageContainer {
+	grid-area: image;
+}
+
+.MemberDescriptionContainer {
+	grid-area: memberdescription;
+}
+
+.SocialIconsContainer {
+	grid-area: socialicons;
 }
 
 .SocialIcons {
-	margin-left: 90%;
+	/* margin-left: 90%;
 	margin-right: 54.86%;
-	margin-top: -10%;
+	margin-top: -10%; */
+}
+
+.Container {
+	display: grid;
+	grid-template-columns: 50px 50px 50px;
+	grid-template-rows: 100px 50px 50px 50px 50px 50px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	grid-template-areas:
+		'. . .'
+		'. header .'
+		'. description description'
+		'position image socialicons'
+		'position name . .'
+		'. memberdescription . ';
 }

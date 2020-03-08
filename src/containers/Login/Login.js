@@ -5,7 +5,7 @@ import SubHeader from '../../components/SubHeader/SubHeader';
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import Footer from '../../components/Footer/Footer';
 import Logo from '../../components/Logo/Logo';
-import dumbellImage from '../../assets/login 1.png';
+import dumbellImage from '../../assets/images/login.png';
 
 export default class Login extends Component {
 	render() {
@@ -14,7 +14,7 @@ export default class Login extends Component {
 				<img
 					className={classes.dumbellImage}
 					src={dumbellImage}
-					alt='dumbell image'
+					alt='dumbell'
 				/>
 				<div className={classes.rightGrid}>
 					<Logo
@@ -33,7 +33,7 @@ export default class Login extends Component {
 					<SubHeader
 						subheaderText={'Welcome!'}
 						descriptionText={
-							'Please sign in or sign up using your gogle account.'
+							'Please sign in or sign up using your google account.'
 						}
 						style={{ gridArea: 'subheader' }}
 					/>

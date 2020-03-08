@@ -1,3 +1,11 @@
+body {
+	margin: 0;
+	background-color: var(--main-bg);
+	width: fit-content;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 /* 
   ===============
   CSS RESET 
@@ -22,6 +30,8 @@
 	--secondary-textColor: red;
 	--main-bg: black;
 	/* --secondary-bg:  */
+	--main-font: Eczar;
+	--secondary-font: Poppins;
 }
 
 /* 
