@@ -5,7 +5,7 @@ import Header from '../../components/Header/Header';
 import Image from '../../components/Image/Image';
 import Description from '../../components/Description/Description';
 import classes from './Connections.module.css';
-import IMG from './../../assets/a1.png';
+import IMG from './../../assets/images/a1.png';
 
 class Connections extends Component {
 	render() {
@@ -33,7 +33,11 @@ class Connections extends Component {
 								// border: '1px solid #1E252C'
 							}}
 						/>
-						<Image style={{ gridArea: 'image' }} image={IMG} alt='profile picture' />
+						<Image
+							style={{ gridArea: 'image' }}
+							image={IMG}
+							imageDescription='profile picture'
+						/>
 					</div>
 					<div
 						className={classes.textInfo}
@@ -84,7 +88,11 @@ class Connections extends Component {
 								// border: '1px solid #1E252C'
 							}}
 						/>
-						<Image style={{ gridArea: 'image' }} image={IMG} alt='profile picture' />
+						<Image
+							style={{ gridArea: 'image' }}
+							image={IMG}
+							imageDescription='profile picture'
+						/>
 					</div>
 					<div
 						className={classes.textInfoR}
@@ -135,7 +143,11 @@ class Connections extends Component {
 								// border: '1px solid #1E252C'
 							}}
 						/>
-						<Image style={{ gridArea: 'image' }} image={IMG} alt='profile picture' />
+						<Image
+							style={{ gridArea: 'image' }}
+							image={IMG}
+							imageDescription='profile picture'
+						/>
 					</div>
 					<div
 						className={classes.textInfo}
