@@ -5,7 +5,7 @@ import Header from '../../components/Header/Header';
 import Image from '../../components/Image/Image';
 import Description from '../../components/Description/Description';
 
-const About1 = () => {
+const About = () => {
 	return (
 		<div className={classes.about1Container}>
 			<NavBar />
@@ -60,4 +60,4 @@ const About1 = () => {
 	);
 };
 
-export default About1;
+export default About;
