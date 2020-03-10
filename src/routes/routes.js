@@ -29,7 +29,7 @@ const routes = () => (
 		<Route exact path='/profile' component={Profile} />
 		<Route exact path='/' component={Landing} />
 		<Route exact path='/connections' component={Connections} />
-		<Route exact path='/about' conponent={About} />
+		<Route exact path='/about' component={About} />
 		{/* Since we do not have a 404 page right now - this solution works */}
 		<Redirect to='/' />
 	</Switch>
