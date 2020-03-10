@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './About1.module.css';
+import classes from './About.module.css';
 import NavBar from '../../components/Navbar/NavBar';
 import Header from '../../components/Header/Header';
 import Image from '../../components/Image/Image';
@@ -14,7 +14,12 @@ const About = () => {
 					className='headerImage'
 					style={{ gridArea: 'headerImage' }}
 				>
-					<Header headerText='About' style={{ gridArea: 'header' }} />
+					<Header
+						headerText='About'
+						style={{
+							gridArea: 'header',
+						}}
+					/>
 					<Image style={{ gridArea: 'image' }} />
 				</div>
 				<div className='textInfo' style={{ gridArea: 'textInfo' }}>

@@ -4,7 +4,7 @@
 	height: 100vh;
 }
 
-.about1Content {
+/* .about1Content {
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
 	grid-template-rows: auto;
@@ -29,4 +29,4 @@
 		'name . . .'
 		'text text text text'
 		'. . . .';
-}
+} */

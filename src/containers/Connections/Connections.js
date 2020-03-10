@@ -53,6 +53,7 @@ class Connections extends Component {
 								display: 'flex',
 								justifyContent: 'center',
 								alignItems: 'center',
+								color: 'white',
 							}}
 						/>
 						<Description
@@ -62,6 +63,7 @@ class Connections extends Component {
 								display: 'flex',
 								justifyContent: 'center',
 								alignItems: 'center',
+								color: 'white',
 							}}
 						/>
 					</div>
@@ -108,6 +110,7 @@ class Connections extends Component {
 								display: 'flex',
 								justifyContent: 'center',
 								alignItems: 'center',
+								color: 'white',
 							}}
 						/>
 						<Description
@@ -117,6 +120,7 @@ class Connections extends Component {
 								display: 'flex',
 								justifyContent: 'center',
 								alignItems: 'center',
+								color: 'white',
 							}}
 						/>
 					</div>
@@ -163,6 +167,7 @@ class Connections extends Component {
 								display: 'flex',
 								justifyContent: 'center',
 								alignItems: 'center',
+								color: 'white',
 							}}
 						/>
 						<Description
@@ -172,6 +177,7 @@ class Connections extends Component {
 								display: 'flex',
 								justifyContent: 'center',
 								alignItems: 'center',
+								color: 'white',
 							}}
 						/>
 					</div>
