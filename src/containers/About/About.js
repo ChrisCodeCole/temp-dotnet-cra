@@ -12,39 +12,75 @@ const About = () => {
 		<div className={classes.about1Container}>
 			<NavBar />
 			<div className={classes.about1Content}>
-				<div
-					className={classes.headerImage}
-					style={{ gridArea: 'headerImage' }}
-				>
-					<Header headerText='About' style={{ gridArea: 'header' }} />
-					<Image
-						image={AboutImg1}
-						imageDescription='about image1'
-						style={{
-							gridArea: 'image',
-							width: '400px',
-						}}
-					/>
-				</div>
-				<div
-					className={classes.textInfo}
-					style={{ gridArea: 'textInfo' }}
-				>
-					<Description
-						text='Name'
-						style={{
-							gridArea: 'name',
-							color: 'white',
-						}}
-					/>
-					<Description
-						text='Non dolore ad fugiat esse laboris. Proident nostrud exercitation aute enim. Non culpa qui consequat sit incididunt do mollit exercitation.'
-						style={{
-							gridArea: 'text',
-							color: 'white',
-						}}
-					/>
-				</div>
+				<Header headerText='About' style={{ gridArea: 'header' }} />
+				<Image
+					image={AboutImg1}
+					imageDescription='about image1'
+					style={{
+						gridArea: 'image',
+						width: '400px',
+					}}
+				/>
+				<Description
+					text='Pariatur sint est consequat amet laboris.'
+					style={{
+						gridArea: 'text1',
+						color: 'white',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+					}}
+				/>
+				<Description
+					text='Non dolore ad fugiat esse laboris. Proident nostrud exercitation aute enim. Non culpa qui consequat sit incididunt do mollit exercitation.'
+					style={{
+						gridArea: 'text2',
+						color: 'white',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+					}}
+				/>
+				<Description
+					text='Non dolore ad fugiat esse laboris. Proident nostrud exercitation aute enim. Non culpa qui consequat sit incididunt do mollit exercitation.'
+					style={{
+						gridArea: 'text3',
+						color: 'white',
+						height: '200px',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+					}}
+				/>
+				<Header
+					headerText='About'
+					style={{
+						gridArea: 'header2',
+						transform: 'rotate(90deg)',
+						margin: '0',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+					}}
+				/>
+				<Description
+					text='Non dolore ad fugiat esse laboris. Proident nostrud exercitation aute enim. Non culpa qui consequat sit incididunt do mollit exercitation.'
+					style={{
+						gridArea: 'text4',
+						color: 'white',
+						height: '200px',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+					}}
+				/>
+				<Image
+					image={AboutImg2}
+					imageDescription='about image2'
+					style={{
+						gridArea: 'image2',
+					}}
+				/>
 			</div>
 			{/* <div className={classses.about1Content}>
                 <Description />
