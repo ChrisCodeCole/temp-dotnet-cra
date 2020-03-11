@@ -82,28 +82,32 @@ const About = () => {
 					}}
 				/>
 			</div>
-			{/* <div className={classses.about1Content}>
-                <Description />
-                <Description />
-                <Image />
-            </div>
-            <div className={classes.about1Content}>
-                <div>
-                    <Header />
-                    <Description />
-                    <Description />
-                </div>
-                <div>
-                    <Header />
-                    <Description />
-                    <Description />
-                </div>
-                <div>
-                    <Header />
-                    <Description />
-                    <Description />
-                </div>
-            </div> */}
+			<div className={classes.infoContainer}>
+				<div className={classes.infoHeader}>
+					<Header
+						headerText='01'
+						style={{
+							fontSize: '6rem',
+							// marginLeft: '0'
+						}}
+					/>
+				</div>
+				<div className={classes.infoDescription}>
+					<Description
+						text='Title'
+						style={{
+							color: 'white',
+							fontSize: '160%',
+						}}
+					/>
+					<Description
+						text='Sit officia velit veniam ex eiusmod ullamco velit. Consequat duis exercitation reprehenderit nisi anim elit duis nulla consectetur deserunt labore. Exercitation qui id non enim amet Lorem ad id. Consectetur irure est id quis ex tempor sunt proident deserunt velit consectetur sit. Eiusmod ullamco do ullamco consequat aliqua nisi magna nisi officia. Consectetur officia ut mollit commodo aliqua magna ut non adipisicing magna.'
+						style={{
+							color: 'white',
+						}}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 };
