@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Button.module.css';
 
-//
-const Button = () => {
+const Button = ({ buttonText, style, to }) => {
 	return (
-		<Link classname={classes.link} to='#'>
-			Button
+		<Link className={classes.link} style={style} to={to}>
+			<p>{buttonText}</p>
 		</Link>
 	);
 };

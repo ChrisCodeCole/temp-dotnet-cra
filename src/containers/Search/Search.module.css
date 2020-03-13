@@ -1,0 +1,22 @@
+.searchContainer {
+	width: 100vw;
+	height: 100vh;
+}
+
+.searchHeader {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	margin: 8px;
+}
+
+.searchBody {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.searchContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

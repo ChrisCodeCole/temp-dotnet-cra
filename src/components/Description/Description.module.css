@@ -1,9 +1,5 @@
-.descriptionContainer {
-	color: white;
-}
-
 .descriptionContent {
+	color: white;
 	line-height: 145%;
 	word-spacing: 1px;
-	width: 85%;
 }
