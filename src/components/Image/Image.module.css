@@ -1,12 +1,10 @@
 .imageContainer {
 	display: flex;
 	justify-content: center;
-	height: 300px;
-	width: 300px;
 	background-color: inherit;
 }
 .image {
 	padding: 3px;
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 }

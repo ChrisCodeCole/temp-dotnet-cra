@@ -1,0 +1,33 @@
+.about1Container {
+	width: 100vw;
+	height: 100vh;
+}
+
+.about1Content {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas:
+		'header header . . . . . .'
+		'. image image image . text1 text1 .'
+		'. image image image . text2 text2 .'
+		'. text3 text3 text3 . . header2 .'
+		'. text4 text4 text4 . . header2 .'
+		'. image2 image2 image2 image2 image2 . .';
+}
+
+.infoContainer {
+	width: 50%;
+	height: 40%;
+	display: flex;
+}
+
+.infoHeader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.infoDescription {
+	display: flex;
+	flex-direction: column;
+}
